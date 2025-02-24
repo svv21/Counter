@@ -28,7 +28,7 @@
                                     <action selector="buttonDidTap:" destination="BYZ-38-t0r" eventType="touchDown" id="t1R-fU-hYM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQI-mB-Hvh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQI-mB-Hvh" userLabel="CounterLabel">
                                 <rect key="frame" x="84" y="125.5" width="642" height="251"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -52,7 +52,7 @@
                     </view>
                     <connections>
                         <outlet property="clickButton" destination="jxp-vD-pgI" id="6yS-xA-0S9"/>
-                        <outlet property="counterValue" destination="jQI-mB-Hvh" id="rVB-z2-NYc"/>
+                        <outlet property="counterLabel" destination="jQI-mB-Hvh" id="LZS-ZS-lco"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
